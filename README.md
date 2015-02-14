@@ -2,6 +2,8 @@
 
 This program started as a simple Arduino-based Central Locking System control for my 1991 Mercedes 230TE (124.083) but since the host vehicle has been standing in my garage due to ongoing Megasquirt-EFI (later referred to as MS) conversion, I started to add functions and probably will keep on doing so infinitely.
 
+Also this is my first GitHub-repository so that's another learning process for me.
+
 # Hardware used
 
 I use a Arduino Nano -clone (later referred to as Nano) that controls a 16x2 backlit LCD-display via an I2C-module.
