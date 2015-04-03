@@ -30,6 +30,7 @@ Currently the hardware is assembled on a breadboard and leds simulate the output
 Starduino was the first name of this project but it was already used by someone else.
 I'll have to think something else for the welcome message in near(ish) future.
 - Bug squishing...
+- 2015/04/03: As the ignition advance tuning of my Mercedes has gone further and trial-and-error method is starting to get on my nerves, I'm planning to use the Nano as a knock sensor controller as well. Already bought me a simple Bosch-like aftermarket knock sensor. This will definitely be the next function to add to this project.
 
 
 # Version history
