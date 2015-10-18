@@ -24,16 +24,18 @@ Currently the hardware is assembled on a breadboard and leds simulate the output
 
 # To-Do
 
-- The LCD-display backlight dimming is done by using an analog output from Nano to drive the backlight led. Propably not the best way to do it, will get to it later.
-- The messages shown in the LCD-display are in finnish. I will add english comments later so they can be easily translated as one wishes.
-- There is a welcome message when power is turned on saying "Starduino" and version number below that.
-Starduino was the first name of this project but it was already used by someone else.
-I'll have to think something else for the welcome message in near(ish) future.
-- Bug squishing...
-- 2015/04/03: As the ignition advance tuning of my Mercedes has gone further and trial-and-error method is starting to get on my nerves, I'm planning to use the Nano as a knock sensor controller as well. Already bought me a simple Bosch-like aftermarket knock sensor. This will definitely be the next function to add to this project.
-
+2015/10/18:
+- Integration with the car
+- New features
 
 # Version history
+
+## v0.3.1
+
+- Added an input for checking the current door locking state.
+- Set the locksignals to use interrupts.
+- Removed the two-button option added in v0.2.
+- Bug fixing.
 
 ## v0.3
 
@@ -57,3 +59,4 @@ Some wild ideas that are not (yet) seriously planned but never say never...
 - Adding an accelerometer + connection to MS via CAN.
 - GPS support and datalogging from MS.
 - Automatic climate controlling instead of manual air conditioning.
+- As the ignition advance tuning of my Mercedes has gone further and trial-and-error method is starting to get on my nerves, I'm planning to use the Nano as a knock sensor controller as well. Already bought me a simple Bosch-like aftermarket knock sensor. This will definitely be the next function to add to this project.
